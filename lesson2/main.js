@@ -121,6 +121,8 @@ switch (dayW) {
     case '7':
         console.log('Sunday');
         break
+    default:
+        console.log('???');
 }
 
 //     - Користувач вводить або має два числа.
