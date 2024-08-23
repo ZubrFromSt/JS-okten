@@ -276,7 +276,6 @@ Array.prototype.myFilter = function(callback) {
     return resultArray;
 };
 
-
 const eachFilteredValue = arr.myFilter(function (element){
     return element > 32
 });
